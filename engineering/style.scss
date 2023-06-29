@@ -1,0 +1,21 @@
+ @use 'style.scss'
+
+.container {
+    background-color: rgb(49, 48, 48);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+
+    h2 {
+        color: #aea16a;
+        font-size: 25px ;
+    }
+
+    p {
+        color: white;
+        font-size: 20px;
+        width: 350px;
+    }
+}
